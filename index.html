@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Minutes</title>
+  <h1>Brainstorming Meeting</h1>
+  <h2>October 12, 2035</h2>
+</head>
+<a id="Top"></a>
+<img src="meeting-pic.jpeg" alt="1">
+<body>
+  <header>
+      <div><em>Navigation links</em></div>
+        <nav>
+          <ul>
+            <li><a href="#Attendance">Attendance</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Backlog">Backlog</a></li>
+            <li><a href="#Form">Role Application Form</a></li>
+          </ul>
+        </nav>
+  </header>
+  <hr>
+  <a id="Attendance"></a>
+  <section>
+    <h3><strong>Attendance</strong></h3>
+      <ul>
+        <li>Kevin Lam</li>
+        <li>Bob the Builder</li>
+        <li>Mario</li>
+        <li>Scooby</li>
+      </ul>
+  </section>
+
+  <hr>
+  <a id="Agenda"></a>
+  <section>
+    <h3><strong>Agenda</strong></h3>
+      <ol>
+        <li>Project Details
+            <p>Go over project specifications, requirements, and constraints</p>
+        </li>
+        <li>Tools
+            <p>Review toolset for project: HTML, CSS, JS, etc.</p>
+            <div>
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/qz0aGYrrlhU">
+                </iframe>
+                <audio src="class-sound.mp3" controls></audio>
+            </div>
+        </li>
+        <li>Distribute roles and responsibilities
+            <details>
+                <summary>We are still polling for what roles we like, but so far we are debating if we should rotate every now and then so we get more experience with all the roles
+                </summary>
+                Starting off as:
+                <ul>
+                    <li>Kevin Lam - fullstack</li>
+                    <li>Bob the Builder - backend</li>
+                    <li>Mario - frontend</li>
+                    <li>Scooby - Tester and CI/CD</li>
+                </ul>
+            </details>
+        </li>
+      </ol>
+      <hr>
+  </section>
+
+  <hr>
+  <a id="Backlog"></a>
+  <section>
+    <h3><em>Backlog for next meeting</em></h3>
+      <ol>
+        <li>Planning Poker</li>
+        <li>Setup burndown chart</li>
+        <li>Setup user stories</li>
+      </ol>
+  </section>
+
+  <hr>
+  <h3>Role Interest Form</h3>
+  <p>Please fill this out if you are interested in trying out a new role</p>
+  <a id="Form"></a>
+  <section>
+    <form>
+        <fieldset>
+            <label for="first">First name:</label>
+            <input type="text" id="first-id" name="first"><br><br>
+            <label for="lat">Last name:</label>
+            <input type="text" id="last-id" name="last"><br><br>
+            <h4>Please select the roles you are interested in</h4>
+              <input type="checkbox" id="role0" name="role0" value="front">
+                <label for="role0"> front end</label><br>
+              <input type="checkbox" id="role1" name="role1" value="back">
+                <label for="role0"> back end</label><br>
+              <input type="checkbox" id="role2" name="role2" value="full">
+                <label for="role0"> fullstack</label><br>
+              <input type="checkbox" id="role3" name="role3" value="test">
+                <label for="role0"> tester</label><br>
+              <input type="checkbox" id="role4" name="role4" value="CICD">
+                <label for="role0"> CI/CD pipeline</label><br><br>
+
+            <h4><label for="comments">Comments/Concerns:</label></h4>
+            <textarea id="comments" name="cc" rows="4" cols="50">Feel free to leave any comments/concerns here</textarea>
+            <br>
+
+            <label for="prof">Choose the best prof from the list:</label>
+            <input list="profs" name="prof" id="prof">
+            <datalist id="profs">
+              <option value="Powell">
+              <option value="Powell">
+              <option value="Powwell">
+            </datalist>
+            <input type="submit">
+        </fieldset>
+        <button type="button" onclick="alert('good job!')">good job!</button>
+    </form>
+  </section>
+
+  <footer>
+    <span><i>Made by:</i></span>
+    <b>CSE 110 Fall 2022 Team 10</b>
+    <div><a href="#Top">Back to Top</a></div>
+  </footer>
+</body>
+</html>
