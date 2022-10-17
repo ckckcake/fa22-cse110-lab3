@@ -1,3 +1,14 @@
+# Lab 3 Link
+https://ckckcake.github.io/fa22-cse110-lab3/
+
+
+
+
+
+
+
+
+
 # Lab 2 - Starter
 https://ckckcake.github.io/Lab2_Starter/
 
